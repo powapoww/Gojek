@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Gojek </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style type="text/css">
+    body {
+    font-family: Lato,Helvetica,sans-serif;
+    color: #4a4a4a;
+    overflow: hidden;
+    }
+    header{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+	z-index: 2;
+    }
+    .slider{
+	position: relative;
+	width: 100%;
+	background: #2c3e50; /* darckblue */
+    }
+    .myslide{
+	height: 500px;
+	display: none;
+	overflow: hidden;
+    }
+    .txt h1{
+	font : bold ;
+	color: black; 
+	font-size: 60px;
+	margin-bottom: 20px;
+    }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+        <img src="logo.png" width="9%" >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Daftar Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Contact Us</a>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Dokumentasi</a>
+              </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <body style="height: 3000px;"> 
+        <div class="slider">
+        <!-- fade css -->
+        <div class="myslide ">
+          <div class="txt">
+            <h1>4 countries.<br>
+              20+ products.<br>
+              3 super apps.</h1>
+            <p> We build products that nations run on</p>
+          </div>
+          <img src="6.jpg" style="width: 100%; height: 100%;">
+        </div>
